@@ -1,25 +1,27 @@
 {
-	"pages": [
-		{
-			"path": "pages/tabBar/component/component",
-			"style": {
+  "pages": [
+    {
+      "path": "pages/tabBar/component/component",
+      "style": {
         "navigationBarTitleText": "内置组件",
-        "//":"导航栏背景颜色（同状态栏背景色）",
-        "navigationBarBackgroundColor":"#F1F3F6", 
-        "//":"导航栏标题颜色及状态栏前景颜色，仅支持 black/white",
-				"navigationBarTextStyle":"black",
-				"app-plus": {
-					"bounce": "vertical",
-					"titleNView": {
-						"buttons": [{
-							"text": "\ue534",
-							"fontSrc": "/static/uni.ttf",
-							"fontSize": "22px",
-							"color": "#FFFFFF"
-						}]
-					}
-				}
-			}
+        "//": "导航栏背景颜色（同状态栏背景色）",
+        "navigationBarBackgroundColor": "#F1F3F6",
+        "//": "导航栏标题颜色及状态栏前景颜色，仅支持 black/white",
+        "navigationBarTextStyle": "black",
+        "app-plus": {
+          "bounce": "vertical",
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue534",
+                "fontSrc": "/static/uni.ttf",
+                "fontSize": "22px",
+                "color": "#FFFFFF"
+              }
+            ]
+          }
+        }
+      }
     }
   ]
 }
