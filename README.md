@@ -81,3 +81,23 @@ Q9:自定义导航栏的方法有哪些
 A9:实践中有四种方法,分别为,[页面属性节点navigation-bar](https://uniapp.dcloud.io/component/navigation-bar)[uni-ui扩展组件uni-nav-bar](https://ext.dcloud.net.cn/plugin?id=52), [titleNView](https://uniapp.dcloud.io/collocation/pages?id=app-titlenview) , [subNVue](https://uniapp.dcloud.io/collocation/pages?id=app-subnvues) .
 
 请先阅读[自定义导航栏使用注意](https://uniapp.dcloud.io/collocation/pages?id=customnav)
+
+Q10:跳页是白屏或闪屏如何处理
+
+A10:在page.json中配置页面导航栏背景色,页面背景色,代码如下
+
+```json
+{  
+    "path": "pages/ecosystem/index",  
+    "style": {  
+        "navigationBarTitleText": "Title",  
+        "navigationBarBackgroundColor":"#123456"
+        "app-plus": {  
+        	"background":"#123456" 
+        }
+    }  
+}
+```
+
+
+
