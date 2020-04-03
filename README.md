@@ -1,6 +1,8 @@
 # uni-app_Android-IOS
 使用uni-app开发移动端app过程中,遇到的问题和解决方案
 
+当前使用的HBuilderX版本号为2.6.8
+
 Q1:
 如何改变手机顶端的状态栏颜色
 A1:
@@ -70,7 +72,12 @@ Q8:使用nvue时,如何禁止页面滚动
 
 A8:在pages.json中配置单个页面的配置项  [style](https://uniapp.dcloud.io/collocation/pages?id=style) ,中设置 disableScroll 的值.
 
-需要注意的是页面中配置项会覆盖  [globalStyle](https://uniapp.dcloud.io/collocation/pages?id=globalstyle)   中相同的配置项 
+`实际测试中disableScroll值在JSLiet中报错,但仍有效果`
 
+需要注意的是页面中配置项会覆盖  [globalStyle](https://uniapp.dcloud.io/collocation/pages?id=globalstyle)   中相同的配置项
 
+Q9:自定义导航栏的方法有哪些
 
+A9:实践中有四种方法,分别为,[页面属性节点navigation-bar](https://uniapp.dcloud.io/component/navigation-bar)[uni-ui扩展组件uni-nav-bar](https://ext.dcloud.net.cn/plugin?id=52), [titleNView](https://uniapp.dcloud.io/collocation/pages?id=app-titlenview) , [subNVue](https://uniapp.dcloud.io/collocation/pages?id=app-subnvues) .
+
+请先阅读[自定义导航栏使用注意](https://uniapp.dcloud.io/collocation/pages?id=customnav)
