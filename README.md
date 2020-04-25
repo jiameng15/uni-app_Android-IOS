@@ -114,3 +114,7 @@ A13:input组件在.vue文件中显示有问题,在.nvue中显示正常
 Q14:nvue页面背景色不能使用pageStyle,也不能通过设置page的css,如何设置背景色
 
 A14:单个页面的背景颜色，通过 CSS 在页面中设置 page 的 background-color 值，如：page{background-color:#fff}，nvue页面可以设置根节点flex:1,同时设置背景（滚动区域使用scroll-view）
+
+Q15:nvue中使用video插件
+
+A15:https://ext.dcloud.net.cn/plugin?id=785
