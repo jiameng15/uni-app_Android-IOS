@@ -118,3 +118,7 @@ A14:单个页面的背景颜色，通过 CSS 在页面中设置 page 的 backgro
 Q15:nvue中使用video插件
 
 A15:https://ext.dcloud.net.cn/plugin?id=785
+
+Q16:nvue中使用list组件,给与max-height样式,编译过程中会报错,但是实际可以使用
+
+A16:实际开发环境中,可以使用,正常使用list,默认定位为relative,此时list的滚动功能生效,如有特定场景需要使用定位fixed,则需要给予固定高度,否则不能滚动,此时使用max-height,编译报错,但可以使用
