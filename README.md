@@ -126,3 +126,7 @@ A16:实际开发环境中,可以使用,正常使用list,默认定位为relative,
 Q17:使用cover-view覆盖map或video等组件时,使用v-if有css显示异常
 
 A17:使用v-show代替v-if即可
+
+Q18:在nvue中cover-view嵌套使用无效
+
+A18:cover-view无法再nvue页面中嵌套,也无法使用子组件或子元素,只能单独布局
